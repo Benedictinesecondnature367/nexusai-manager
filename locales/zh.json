@@ -1,0 +1,79 @@
+{
+  "app": {
+    "name": "NexusAI 管理器",
+    "description": "专业的 AI API 密钥管理和代理轮换工具",
+    "version": "v1.2.0"
+  },
+  "menu": {
+    "dashboard": "仪表板",
+    "apiKeys": "API 密钥",
+    "proxy": "代理",
+    "benchmark": "基准测试",
+    "settings": "设置",
+    "language": "语言"
+  },
+  "dashboard": {
+    "title": "使用量仪表板",
+    "totalRequests": "请求总数",
+    "totalTokens": "Token 总数",
+    "totalCost": "总费用",
+    "activeKeys": "活跃密钥",
+    "providers": "提供商",
+    "status": "状态",
+    "online": "在线",
+    "offline": "离线",
+    "healthy": "正常",
+    "degraded": "降级"
+  },
+  "keys": {
+    "title": "API 密钥管理",
+    "add": "添加密钥",
+    "remove": "删除",
+    "test": "测试连接",
+    "provider": "提供商",
+    "key": "API 密钥",
+    "status": "状态",
+    "valid": "有效",
+    "invalid": "无效",
+    "expired": "已过期"
+  },
+  "proxy": {
+    "title": "代理轮换设置",
+    "enabled": "启用代理",
+    "rotation": "轮换模式",
+    "roundRobin": "轮询",
+    "random": "随机",
+    "leastUsed": "最少使用",
+    "addProxy": "添加代理",
+    "healthCheck": "健康检查",
+    "interval": "检查间隔"
+  },
+  "benchmark": {
+    "title": "模型基准测试",
+    "run": "运行测试",
+    "model": "模型",
+    "latency": "延迟",
+    "tokensPerSec": "Token/秒",
+    "quality": "质量评分"
+  },
+  "settings": {
+    "title": "设置",
+    "theme": "主题",
+    "dark": "深色",
+    "light": "浅色",
+    "language": "语言",
+    "encryption": "加密",
+    "export": "导出配置",
+    "import": "导入配置",
+    "sync": "同步设置"
+  },
+  "messages": {
+    "welcome": "欢迎使用 NexusAI 管理器",
+    "keyAdded": "API 密钥添加成功",
+    "keyRemoved": "API 密钥已删除",
+    "testSuccess": "连接测试通过",
+    "testFailed": "连接测试失败",
+    "configSaved": "配置已保存",
+    "syncComplete": "设置已同步"
+  }
+}

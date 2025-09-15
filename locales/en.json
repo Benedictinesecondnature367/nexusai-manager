@@ -1,0 +1,79 @@
+{
+  "app": {
+    "name": "NexusAI Manager",
+    "description": "Professional AI API Key Manager & Proxy Rotator",
+    "version": "v1.2.0"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "apiKeys": "API Keys",
+    "proxy": "Proxy",
+    "benchmark": "Benchmark",
+    "settings": "Settings",
+    "language": "Language"
+  },
+  "dashboard": {
+    "title": "Usage Dashboard",
+    "totalRequests": "Total Requests",
+    "totalTokens": "Total Tokens",
+    "totalCost": "Total Cost",
+    "activeKeys": "Active Keys",
+    "providers": "Providers",
+    "status": "Status",
+    "online": "Online",
+    "offline": "Offline",
+    "healthy": "Healthy",
+    "degraded": "Degraded"
+  },
+  "keys": {
+    "title": "API Key Management",
+    "add": "Add Key",
+    "remove": "Remove",
+    "test": "Test Connection",
+    "provider": "Provider",
+    "key": "API Key",
+    "status": "Status",
+    "valid": "Valid",
+    "invalid": "Invalid",
+    "expired": "Expired"
+  },
+  "proxy": {
+    "title": "Proxy Rotation Settings",
+    "enabled": "Enable Proxy",
+    "rotation": "Rotation Mode",
+    "roundRobin": "Round Robin",
+    "random": "Random",
+    "leastUsed": "Least Used",
+    "addProxy": "Add Proxy",
+    "healthCheck": "Health Check",
+    "interval": "Check Interval"
+  },
+  "benchmark": {
+    "title": "Model Benchmark",
+    "run": "Run Benchmark",
+    "model": "Model",
+    "latency": "Latency",
+    "tokensPerSec": "Tokens/sec",
+    "quality": "Quality Score"
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "language": "Language",
+    "encryption": "Encryption",
+    "export": "Export Config",
+    "import": "Import Config",
+    "sync": "Sync Settings"
+  },
+  "messages": {
+    "welcome": "Welcome to NexusAI Manager",
+    "keyAdded": "API key added successfully",
+    "keyRemoved": "API key removed",
+    "testSuccess": "Connection test passed",
+    "testFailed": "Connection test failed",
+    "configSaved": "Configuration saved",
+    "syncComplete": "Settings synchronized"
+  }
+}

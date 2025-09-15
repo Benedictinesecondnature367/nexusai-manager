@@ -1,0 +1,79 @@
+{
+  "app": {
+    "name": "NexusAI Менеджер",
+    "description": "Профессиональный менеджер API-ключей и ротации прокси для AI",
+    "version": "v1.2.0"
+  },
+  "menu": {
+    "dashboard": "Панель",
+    "apiKeys": "API Ключи",
+    "proxy": "Прокси",
+    "benchmark": "Бенчмарк",
+    "settings": "Настройки",
+    "language": "Язык"
+  },
+  "dashboard": {
+    "title": "Панель мониторинга",
+    "totalRequests": "Всего запросов",
+    "totalTokens": "Всего токенов",
+    "totalCost": "Общая стоимость",
+    "activeKeys": "Активные ключи",
+    "providers": "Провайдеры",
+    "status": "Статус",
+    "online": "Онлайн",
+    "offline": "Оффлайн",
+    "healthy": "Исправен",
+    "degraded": "Деградация"
+  },
+  "keys": {
+    "title": "Управление API ключами",
+    "add": "Добавить ключ",
+    "remove": "Удалить",
+    "test": "Тест подключения",
+    "provider": "Провайдер",
+    "key": "API Ключ",
+    "status": "Статус",
+    "valid": "Действителен",
+    "invalid": "Недействителен",
+    "expired": "Истёк"
+  },
+  "proxy": {
+    "title": "Настройки ротации прокси",
+    "enabled": "Включить прокси",
+    "rotation": "Режим ротации",
+    "roundRobin": "По кругу",
+    "random": "Случайный",
+    "leastUsed": "Наименее используемый",
+    "addProxy": "Добавить прокси",
+    "healthCheck": "Проверка здоровья",
+    "interval": "Интервал проверки"
+  },
+  "benchmark": {
+    "title": "Бенчмарк моделей",
+    "run": "Запустить тест",
+    "model": "Модель",
+    "latency": "Задержка",
+    "tokensPerSec": "Токенов/сек",
+    "quality": "Оценка качества"
+  },
+  "settings": {
+    "title": "Настройки",
+    "theme": "Тема",
+    "dark": "Тёмная",
+    "light": "Светлая",
+    "language": "Язык",
+    "encryption": "Шифрование",
+    "export": "Экспорт конфига",
+    "import": "Импорт конфига",
+    "sync": "Синхронизация"
+  },
+  "messages": {
+    "welcome": "Добро пожаловать в NexusAI Менеджер",
+    "keyAdded": "API ключ успешно добавлен",
+    "keyRemoved": "API ключ удалён",
+    "testSuccess": "Тест подключения пройден",
+    "testFailed": "Тест подключения не пройден",
+    "configSaved": "Конфигурация сохранена",
+    "syncComplete": "Настройки синхронизированы"
+  }
+}

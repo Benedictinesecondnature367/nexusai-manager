@@ -1,0 +1,28 @@
+{
+  "name": "nexusai-manager",
+  "version": "1.2.0",
+  "description": "Professional AI API Key Manager & Proxy Rotator",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "verify": "node scripts/verify.js",
+    "postinstall": "node src/utils/config-loader.js"
+  },
+  "keywords": ["ai", "openai", "claude", "gemini", "api", "proxy", "manager", "rate-limit", "api-key"],
+  "author": "NexusAI Team",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "crypto-js": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexusai-tools/nexusai-manager.git"
+  }
+}
