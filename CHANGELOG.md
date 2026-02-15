@@ -3,3 +3,4 @@
 # v3.0.0 - Smart dashboard
 # v3.1.0 - Proxy rotation
 # v3.2.0 - i18n support
+# v4.0.0 - Tauri v2 migration
