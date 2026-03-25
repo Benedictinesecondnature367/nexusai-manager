@@ -1,0 +1,6 @@
+services:
+  nexusai-manager:
+    build:
+      dockerfile: docker/Dockerfile.backend
+      args:
+        FRONTEND_IMAGE: nexusai-manager:latest

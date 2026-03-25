@@ -1,0 +1,5 @@
+services:
+  nexusai-manager:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.backend.localdist
