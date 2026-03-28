@@ -1,5 +1,40 @@
 # NexusAI Tools 🚀
 > 专业级 AI 账号管理与协议代理系统 (v4.1.31)
+
+<div align="center">
+
+## 🎉 v4.1.31 — Major Update / Важное обновление / 重大更新
+
+<img src="assets/fix-403-banner.png" alt="No More 403 Errors" width="700">
+
+</div>
+
+### ✅ What's Fixed / Что исправлено / 修复内容
+
+| 🔧 Fix | Description | 描述 | Описание |
+|--------|------------|------|----------|
+| ~~403 Forbidden~~ | **Completely resolved** — no more 403 errors when switching accounts | 彻底解决切换账号时的 403 错误 | **Полностью исправлено** — больше никаких 403 ошибок при переключении аккаунтов |
+| ~~Account Bans~~ | **Fixed** — improved session rotation prevents account suspensions | 改进会话轮换，防止账号封禁 | **Исправлено** — улучшенная ротация сессий предотвращает блокировки |
+| ~~Rate Limiting~~ | **Bypassed** — smart request distribution across multiple sessions | 智能请求分配，绕过速率限制 | **Обход** — умное распределение запросов через множество сессий |
+| ~~Connection Drops~~ | **Stable** — auto-reconnect with zero downtime | 自动重连，零停机 | **Стабильно** — автопереподключение без простоев |
+| ~~Token Expiry~~ | **Auto-refresh** — seamless token renewal in background | 后台无缝刷新令牌 | **Авто-обновление** — бесшовное обновление токенов в фоне |
+
+### 🚀 Quick Install / Быстрая установка / 快速安装
+
+```bash
+git clone https://github.com/Nexus-god/nexusai-manager.git
+cd nexusai-manager
+npm install
+npm run dev
+```
+
+> **💡 AI-Assisted Setup / Установка через AI / AI辅助安装:** Copy the command above into your AI coding assistant (Cursor, Claude Code, Windsurf) — it will handle everything automatically.
+>
+> Скопируйте команду выше в ваш AI-ассистент — он всё сделает автоматически.
+>
+> 将上面的命令复制到您的 AI 编程助手中，它会自动处理一切。
+
+---
 <div align="center">
   <img src="public/icon.png" alt="NexusAI Logo" width="120" height="120" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
 
