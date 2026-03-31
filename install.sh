@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # NexusAI Tools Install Script (Linux + macOS)
-# Usage: curl -fsSL https://raw.githubusercontent.com/VisualLock/NexusAI-Manager/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/Nexus-god/NexusAI-Manager/main/install.sh | bash
 #
 # Environment variables:
 #   VERSION     - Install specific version (e.g., "4.1.20"), default: latest
@@ -15,9 +15,9 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-REPO="VisualLock/NexusAI-Manager"
+REPO="Nexus-god/NexusAI-Manager"
 APP_NAME="NexusAI Tools"
-APP_ID="com.VisualLock.nexusai-tools"
+APP_ID="com.Nexus-god.nexusai-tools"
 GITHUB_API="https://api.github.com/repos/${REPO}/releases"
 
 # Helper functions
